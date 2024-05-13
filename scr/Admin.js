@@ -1,6 +1,7 @@
 import './Admin.css';
 import Leftside from './Side';
 import PieChart from './Chart';
+import AccessibleTable from './table';
 
 function Admin() {
     return (
@@ -52,7 +53,7 @@ function Admin() {
                     <div className='na'><h3>INCOME CHART</h3></div>
                     <div className='flexcontainer'>
                         <div class="ck">
-                            <p className='chartback'></p>
+                            <p className='chartback'><AccessibleTable/></p>
                         </div>
                     </div>
                 </div>
